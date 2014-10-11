@@ -1,3 +1,4 @@
+##plot 1
 > data<-read.table("Course project 1.txt",sep=";",header=TRUE)
 > data$Date<-strptime(data$Date,"%d/%m/%Y")
 > typeof(data$Global_active_power)
@@ -11,3 +12,4 @@ windows
       2 
 > (Note: I select all data on 2007-02-01 and 2007-02-01 from the original file into a new file, "Course project 1.txt", because I 
   have not installed some necessary R packages and could not use some functions)
+
