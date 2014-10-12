@@ -1,4 +1,3 @@
-##plot 1
 > data<-read.table("Course project 1.txt",sep=";",header=TRUE)
 > data$Date<-strptime(data$Date,"%d/%m/%Y")
 > typeof(data$Global_active_power)
